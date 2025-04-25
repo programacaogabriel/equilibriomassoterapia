@@ -270,3 +270,134 @@ a:-webkit-any-link {
     cursor: pointer;
     text-decoration: none;
 }
+/* Responsivo para telas até 768px */
+@media screen and (max-width: 768px) {
+
+    h1 {
+      font-size: 28px;
+    }
+  
+    h2 {
+      font-size: 24px;
+    }
+  
+    #navbar {
+      height: auto;
+      text-align: center;
+      padding: 10px;
+    }
+  
+    #navbar h2 {
+      margin-left: 0;
+      line-height: normal;
+    }
+  
+    #navbar img {
+      position: static;
+      margin: 0 auto 10px auto;
+      display: block;
+    }
+  
+    #navbar nav {
+      float: none;
+      display: block;
+    }
+  
+    #navbar ul {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    #navbar li {
+      margin: 5px;
+    }
+  
+    #main_banner {
+      height: auto;
+      padding: 50px 20px;
+      background-position: center;
+    }
+  
+    #banner_info {
+      width: 100%;
+      padding: 20px;
+    }
+  
+    #banner_info img {
+      height: 100px;
+    }
+  
+    #about_section {
+      padding: 30px 20px;
+      height: auto;
+    }
+  
+    #skills_section {
+      width: 100%;
+      border-radius: 0;
+      margin-top: 0;
+    }
+  
+    #skills_section .container {
+      flex-direction: column;
+      padding: 20px;
+    }
+  
+    .skill_container {
+      padding: 30px 10px;
+      border-bottom: 1px solid #193145;
+    }
+  
+    .central {
+      border-left: none;
+      border-right: none;
+      width: 100%;
+    }
+  
+    .skills_container h3 {
+      font-size: 20px;
+    }
+  
+    .skill_container img {
+      height: 50px;
+    }
+  
+    .final_skills {
+      padding: 30px 10px;
+    }
+  
+    #certification_section {
+      padding: 30px 15px;
+    }
+  
+    .certification_container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .certification_box {
+      margin: 10px 0;
+      height: 200px;
+      width: 90%;
+    }
+  
+    #footer {
+      padding: 30px 15px;
+    }
+  
+    #footer h2 {
+      font-size: 24px;
+    }
+  
+    #footer img {
+      height: 80px;
+    }
+  
+    #footer p {
+      font-size: 14px;
+    }
+  }
+  

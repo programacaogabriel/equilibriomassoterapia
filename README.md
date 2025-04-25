@@ -1,4 +1,4 @@
-![ cabeçalho](https://github.com/programacaogabriel/
+![ cabeçalho](https://github.com/programacaogabriel/equilibriomassoterapia/blob/main/img/apresenta%C3%A7%C3%A3o.jpeg)
 
 
 <h1 align="center">Rosangela Massoterapia </h1>

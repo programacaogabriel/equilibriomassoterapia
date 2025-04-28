@@ -211,38 +211,75 @@ margin-left: auto;
     margin-bottom: 50px;
 }
 
-.certification_container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 50px;
+.certification_container {
+  display: flex;
+  flex-wrap: wrap; /* Deixa quebrar linha se precisar */
+  justify-content: center; /* Centraliza certinho */
+  gap: 30px; /* Espaço entre as caixas */
+  max-width: 1200px;
+  margin: 0 auto 50px auto; /* Centralizado */
+  padding: 0 20px; /* Espaço interno nas laterais */
 }
-.certification_box{
-    flex:1 1 1200px;
-margin-left: 25px;
-margin-right: 25px;
-height: 300px;
-background-size: cover;
-border-right: 2px solid #193145;
-border-bottom: 2px solid #193145;
+
+.certification_box {
+  flex: 0 1 350px; /* Cada caixa tenta ter 350px */
+  aspect-ratio: 4/3; /* Mantém proporção (largura x altura) */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  
 }
 
 .proj1{
-    background-image: url('../img/certification.png');
-}
+    background-image: url('../img/certificados/img1.jpg');
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
 
+  .proj2{
+    background-image: url('../img/certificados/img2.jpg');
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
 
-.proj2{
-    background-image: url('../img/certification.png');
-}
+  .proj3{
+    background-image: url('../img/certificados/img3.jpg');
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
 
+  .proj4{
+    background-image: url('../img/certificados/img4.jpg');
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
 
-.proj3{
-    background-image: url('../img/certification.png');
-}
+  .proj5{
+    background-image: url('../img/certificados/img5.jpg');
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .proj6{
+    background-image: url('../img/certificados/img6.jpg');
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .proj7{
+    background-image: url('../img/certificados/img7.jpg');
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
 
 #footer{
     padding: 50px 0px;
@@ -378,13 +415,14 @@ a:-webkit-any-link {
       align-items: center;
     }
   
-    .certification_box {
-      margin: 10px 0;
-      height: 200px;
-      width: 90%;
-    }
+     .certification_box {
+       background-size: contain; /* Contém a imagem dentro da box */
+      background-repeat: no-repeat;
+     background-position: center;
+       
+     }
   
-    #footer {
+     #footer {
       padding: 30px 15px;
     }
   

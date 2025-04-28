@@ -346,6 +346,7 @@ a:-webkit-any-link {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
+      margin: 10px 0px;
     }
   
     #navbar li {
